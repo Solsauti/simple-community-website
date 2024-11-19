@@ -1,0 +1,80 @@
+/* General Styling */
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-family: 'Lobster', cursive;
+}
+
+.nav-link:hover {
+    color: #ffdd57 !important;
+}
+
+/* Intro Section */
+.intro img {
+    border: 5px solid #0078D4;
+}
+
+/* Footer */
+footer {
+    background: #212529;
+    color: #fff;
+}
+
+/* Bootstrap Overrides */
+.btn-primary {
+    background-color: #0078D4;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056a3;
+}
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #0078D4;
+    color: white;
+}
+
+/* Image Styling */
+.image-styling {
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensures content fills space without distortion */
+    max-height: 400px; /* Uniform height across devices */
+}
+
+/* Responsive Behavior for Larger Screens */
+@media (min-width: 992px) {
+    .image-styling {
+        max-height: 500px; /* Increase height for larger screens */
+    }
+}
+
+/* Footer */
+footer {
+    background-color: #212529;
+    color: white;
+}
+
+/* Bootstrap Overrides for Better Look */
+.nav-link:hover {
+    color: #ffdd57 !important;
+}
+
